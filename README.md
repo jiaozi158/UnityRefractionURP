@@ -32,7 +32,8 @@ Requirements
 Limitation
 ------------
 - Will not handle recursive refraction.
-- Does not support rough refraction. (Color Pyramid Custom Renderer Feature needed)
+- Other transparent objects will not appear in refraction. 
+- Does not support rough refraction. ([Color Pyramid](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@12.0/manual/Custom-Pass-buffers-pyramids.html) Custom Renderer Feature needed)
 - Does not support transparent shadow. (Dithered Transparent Shadow in Shader Graph?)
 
 License
