@@ -27,7 +27,7 @@ In order to create more accurate refraction, it is suggested to:
 
 - Use Box Projected Reflection Probes.
 
-- Provide reasonable mesh thickness (radius if Sphere) to material's Thickness parameter. (1 unit = 1 meter)
+- Provide reasonable mesh thickness (diameter if Sphere Model) to material's Thickness parameter. (1 unit = 1 meter)
 
 Details
 -------------
