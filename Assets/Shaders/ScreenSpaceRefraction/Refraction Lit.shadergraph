@@ -4428,8 +4428,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2642.0,
-            "y": 784.6666259765625,
+            "x": -2641.333251953125,
+            "y": 783.3333129882813,
             "width": 56.0,
             "height": 24.0
         }
@@ -7218,7 +7218,7 @@
     "m_ShaderOutputName": "THIN",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.05000000074505806,
+        "x": 0.004999999888241291,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
@@ -7577,7 +7577,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "b6be7edf63724bdcb176b0e248093bc0",
     "m_Title": "Thickness",
-    "m_Content": "Unit: Unity units (meter)\n\nSphere: diameter\n\nBox: Two plane's thickness\n\nThin: fixed thickness (5cm)",
+    "m_Content": "Unit: Unity units (meter)\n\nSphere: diameter\n\nBox: Two plane's thickness\n\nThin: fixed thickness (5mm)",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -8323,9 +8323,9 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3684.66650390625,
+            "x": -3685.333251953125,
             "y": 1274.0,
-            "width": 127.33349609375,
+            "width": 127.333251953125,
             "height": 96.0
         }
     },
