@@ -123,4 +123,20 @@ void EdgeOfScreenFade_float(float2 screenUV, half fadeRcpLength, out half fadeFa
     fadeFactor = Smoothstep01(t.x) * Smoothstep01(t.y);
 }
 
+// Transparent dithered shadow.
+void IsMainLightShadow_half(out bool isMainLightShadow)
+{
+#if !defined (_CASTING_PUNCTUAL_LIGHT_SHADOW)
+    isMainLightShadow = true;
+#else
+    isMainLightShadow = false;
+#endif
+}
+
+// In case we set graph precision to single.
+void IsMainLightShadow_float(out bool isMainLightShadow)
+{
+    IsMainLightShadow_half(isMainLightShadow);
+}
+
 #endif

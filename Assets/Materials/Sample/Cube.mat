@@ -24,6 +24,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 6bb61e8f6e7da874797a71cc2dee1ec6,
     type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _APPROXIMATE_THICKNESS_NONE
   - _GEOMETRIC_SPECULAR_AA
   - _RAYMISS_FALLBACK_REFLECTION_PROBES
   - _REFRACTION_MODEL_PLANAR
@@ -87,6 +89,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Transmittance_Color_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -101,7 +107,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
+    - _APPROXIMATE_THICKNESS: 0
+    - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 1
     - _CastShadows: 1
@@ -118,6 +125,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _I_O_R: 1.5
+    - _Intensity: 2
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -133,8 +141,11 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _Surface: 1
+    - _TRANSPARENT_SHADOW: 0
     - _Thickness: 0.2
     - _Threshold: 0.2
+    - _Transmittance_Absorption_Distance: 1
+    - _Transparency: 1
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
